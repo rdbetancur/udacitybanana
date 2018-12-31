@@ -25,7 +25,9 @@ In the project folder is the Unity environment (Banana.app), the Jupyter file to
 - UPDATE_EVERY (int): how often to update the network: 3
 
 
-## Performance
+## Performance and  Plot of Rewards
+
+https://github.com/rubenbet/udacitybanana/blob/master/Results.png
 
 Episode 100 Average Score: 1.30
 Episode 200 Average Score: 6.01
