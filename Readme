@@ -34,7 +34,7 @@ python -m ipykernel install --user --name drlnd --display-name "drlnd"
 
 5.	Before running code in a notebook, change the kernel to match the drlnd environment by using the drop-down Kernel menu.
 
-Running all the cells in the notebook will install it automatically.
+Running all the cells in the notebook (Banana_solution.ipynb) will install it automatically.
 
 The Banana file is a Unity environment that will be activated when running the Jupyter file and will be able to show the agent performing the challenge of the game.
 
