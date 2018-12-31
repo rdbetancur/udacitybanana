@@ -16,7 +16,7 @@ The learning objective is to achieve an average of 13 bananas in the fewest poss
 
 After trainig the model, parameters will be dumpt to `checkpoint.pth` and will be used by the trained agent.
 
-The project contains 6 files
+The project contains 7 files
 
 Banana_solution.ipynb: Jupyter Notebook
 dqn_agent.py: The Agent class
@@ -24,3 +24,4 @@ nav_model.py: The DQN models
 checkpoint.pth; Saved trained model to use
 Report.md: Results of the implementation
 Results: Image with the results of an agent training
+Banana.app: The Game Unity Environment 
