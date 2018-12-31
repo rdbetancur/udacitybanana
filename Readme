@@ -14,9 +14,9 @@ The Banana file is a Unity environment that will be activated when running the J
 
 The learning objective is to achieve an average of 13 bananas in the fewest possible attempts. You will see the learning results, indicating the number of episodes and the average score.
 
-After trainig the model, parameters will be dumpt to `checkpoint.pth` and will be used by the trained agent.
+After trainig the model, parameters will be dumpt to checkpoint.pth and will be used by the trained agent.
 
-The project contains 7 files
+The project contains 6 files
 
 Banana_solution.ipynb: Jupyter Notebook
 dqn_agent.py: The Agent class
