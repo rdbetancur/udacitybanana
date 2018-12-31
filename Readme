@@ -8,6 +8,32 @@ The program was developed in Deep Q-learning, based on the course code (Deep_Q_N
 ## Getting started
 The project is written using Jupyter Notebook (Banana_solution.ipynb). 
 
+In order for it to work properly you must install Python 3.6, PyTorch ((https://pytorch.org/), the ML-Agents toolkit (Unity ML-Agents](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Installation.md), Numpy ((http://www.numpy.org/) and a few more Python packages required to complete the project.
+
+See the instrucions here to set up your environment ( https://github.com/udacity/deep-reinforcement-learning#dependencies):
+
+1.	Create (and activate) a new environment with Python 3.6.
+Linux or Mac:
+conda create --name drlnd python=3.6
+source activate drlnd
+Windows:
+conda create --name drlnd python=3.6 
+activate drlnd
+
+2.	Follow the instructions in this repository to perform a minimal install of OpenAI gym: https://github.com/openai/gym 
+Next, install the classic control environment group.
+Then, install the box2d environment group.
+
+3.	Clone the repository (if you haven't already!), and navigate to the python/ folder. Then, install several dependencies.
+git clone https://github.com/udacity/deep-reinforcement-learning.git
+cd deep-reinforcement-learning/python
+pip install .
+
+4.	Create an IPython kernel for the drlnd environment.
+python -m ipykernel install --user --name drlnd --display-name "drlnd"
+
+5.	Before running code in a notebook, change the kernel to match the drlnd environment by using the drop-down Kernel menu.
+
 Running all the cells in the notebook will install it automatically.
 
 The Banana file is a Unity environment that will be activated when running the Jupyter file and will be able to show the agent performing the challenge of the game.
@@ -16,7 +42,7 @@ The learning objective is to achieve an average of 13 bananas in the fewest poss
 
 After trainig the model, parameters will be dumpt to checkpoint.pth and will be used by the trained agent.
 
-The project contains 6 files
+The project contains 7 files
 
 Banana_solution.ipynb: Jupyter Notebook
 dqn_agent.py: The Agent class
