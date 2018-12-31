@@ -1,3 +1,25 @@
-Information about Project
+# Unity Banana Navigation
+
+The challenge of this project is to teach an agent to perform a challenge in a game of collecting as many yellow bananas as possible. A reward of `+1` is provided for collecting a yellow banana, and a reward of `-1` is provided for collecting a blue banana. 
+
+The program was developed in Deep Q-learning, based on the course code (Deep_Q_Network_Solution.ipynd). 
 
 
+## Getting started
+The project is written using Jupyter Notebook (Banana_solution.ipynb). 
+
+Running all the cells in the notebook will install it automatically.
+
+The Banana file is a Unity environment that will be activated when running the Jupyter file and will be able to show the agent performing the challenge of the game.
+
+The learning objective is to achieve an average of 13 bananas in the fewest possible attempts. You will see the learning results, indicating the number of episodes and the average score.
+
+After trainig the model, parameters will be dumpt to `checkpoint.pth` and will be used by the trained agent.
+
+The project contains 5 files
+
+Banana_solution.ipynb: Jupyter Notebook
+dqn_agent.py: The Agent class
+nav_model.py: The DQN models
+checkpoint.pth; Saved trained model to use
+Report.md: Results of the implementation
